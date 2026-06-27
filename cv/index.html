@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CV Ats</title>
+    <style>
+        /* Menghilangkan margin bawaan browser */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body, html {
+            width: 100%;
+            height: 100%;
+            overflow: hidden; /* Mencegah scrollbar ganda pada browser */
+            background-color: #333; /* Warna latar belakang estetis saat loading */
+        }
+
+        .pdf-container {
+            width: 100vw;  /* 100% dari lebar layar */
+            height: 100vh; /* 100% dari tinggi layar */
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        iframe {
+            width: 100%;
+            height: 100%;
+            border: none;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="pdf-container">
+        <iframe src="CV ATS - Ridho.pdf" type="application/pdf"></iframe>
+    </div>
+
+</body>
+</html>
